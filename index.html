@@ -8,10 +8,39 @@
   </head>
   <body>
     <header></header>
-    <div class="status-bar">
-      <div class="circle"></div>
-      <h3>To Do</h3>
-      <p>5</p>
+    <div>
+<div>
+  <button>Add task</button>
+</div>
+    <div class="card-container">
+     <div class="task-status">
+        <div class="category">
+        <div class="circle"></div>
+        <h3>To Do</h3>
+        </div>
+        <p>5</p>
+     <div>
+    </div>
+  </div>
+  </div>
+
+  <div class="pop-up">
+    <div class="pop-up-content">
+   
+        <h2>Enter task</h2>
+        <input type="text" name="taskName" placeholder="Task name..." required>
+   
+        <div class="select-status">     
+          <label for="status">Select status</label>
+        <select>
+      <option>To do</option>
+      <option>In progress</option>
+      <option>Done</option>
+      <option>Blocked</option>
+     </select>
+    </div>
+     <button type="submit">Submit</button>
+ 
     </div>
   </body>
 </html>
