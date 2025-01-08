@@ -1,0 +1,13 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: wheat;
+}
+
+.circle {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #a3a300;
+}
