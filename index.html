@@ -10,7 +10,7 @@
     <header></header>
     <div>
 <div>
-  <button>Add task</button>
+  <button id="add-btn">Add task</button>
 </div>
     <div class="card-container">
      <div class="task-status">
@@ -24,23 +24,25 @@
   </div>
   </div>
 
-  <div class="pop-up">
+  <div class="pop-up" id="pop-up">
     <div class="pop-up-content">
    
         <h2>Enter task</h2>
         <input type="text" name="taskName" placeholder="Task name..." required>
    
         <div class="select-status">     
-          <label for="status">Select status</label>
-        <select>
-      <option>To do</option>
-      <option>In progress</option>
-      <option>Done</option>
-      <option>Blocked</option>
+          <label for="status-select" id="status-label">Select status</label>
+        <select id="status-select">
+          <option value="" disabled selected></option>
+      <option value="to-do">To do</option>
+      <option value="in-progress">In progress</option>
+      <option value="done">Done</option>
+      <option value="blocked">Blocked</option>
      </select>
     </div>
      <button type="submit">Submit</button>
  
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
